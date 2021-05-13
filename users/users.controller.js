@@ -10,6 +10,15 @@ router.get('/current', getCurrent);
 router.get('/:id', getById);
 router.put('/:id', update);
 router.delete('/:id', _delete);
+// //global message for api access
+// data = {
+//     msg: "Welcome for CounterFit",
+//     info: "This is a root endpoint",
+//     Working: "Documentations of other endpoints on working",
+//     request:
+//       "Without secret key your req cannot connected",
+//   };
+//   app.route("/").get((req, res) => res.json(data));
 
 module.exports = router;
 
